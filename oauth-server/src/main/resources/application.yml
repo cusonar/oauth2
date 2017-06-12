@@ -1,0 +1,21 @@
+server:
+  port: 8888
+
+security:
+  user:
+    password: 1234
+  oauth2:
+    client:
+      client-id: foo
+      client-secret: bar
+    authorization:
+      token-key-access: isAuthenticated()
+      
+keystore.password: mySecretKey
+      
+
+spring:
+  h2:
+    console:
+      enabled: true
+      path: /h2
