@@ -1,6 +1,13 @@
 .gradle
 /build/
-!gradle/wrapper/gradle-wrapper.jar
+/bin/
+/gradle/wrapper/
+/gradle/
+/gradlew/
+/gradlew
+/gradlew.bat
+
+*.jks
 
 ### STS ###
 .apt_generated
@@ -23,3 +30,4 @@ nbbuild/
 dist/
 nbdist/
 .nb-gradle/
+/.DS_Store
